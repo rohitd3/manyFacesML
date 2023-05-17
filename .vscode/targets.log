@@ -22,7 +22,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # automatic
 @F = $(notdir $@)
 # makefile
-CURDIR := /Users/rohitde/vscode/rohitfastpages
+CURDIR := /Users/rohitde/vscode/manyFacesML
 # makefile
 SHELL = /bin/sh
 # environment
@@ -50,7 +50,7 @@ SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.dIE07Qcxsl/Listeners
 # environment
 CONDA_EXE = /Users/rohitde/opt/anaconda3/bin/conda
 # environment
-PWD = /Users/rohitde/vscode/rohitfastpages
+PWD = /Users/rohitde/vscode/manyFacesML
 # environment
 HOMEBREW_CELLAR = /opt/homebrew/Cellar
 # environment
