@@ -14,17 +14,6 @@
 
   
   
-      ,"page0": {
-          "title": "About Me",
-          "content": "Hi! I am Rohit and am of the class of 2023. I am so excited for senior year in AP Computer Science A!! . .",
-          "url": "https://rohitd3.github.io/manyFacesML/about/",
-          "relUrl": "/about/",
-          "date": ""
-      }
-      
-  
-
-  
 
   
   
@@ -49,7 +38,7 @@
   
 
   
-      ,"page10": {
+      ,"page9": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://rohitd3.github.io/manyFacesML/robots.txt",
