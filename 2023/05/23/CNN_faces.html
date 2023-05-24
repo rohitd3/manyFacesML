@@ -894,11 +894,11 @@ Net(
 
     <span class="n">val_label</span> <span class="o">=</span> <span class="s2">&quot;Validation Loss &quot;</span> 
     <span class="n">train_label</span> <span class="o">=</span> <span class="s2">&quot;Training Loss &quot;</span>
-    <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">data_list_val</span><span class="p">)</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">data_list_train</span><span class="p">)</span>
+    <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">data_list_val</span><span class="p">)</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">data_list_train</span><span class="p">)</span> <span class="c1">##makes sure the lengths of each are the same, will give error if not</span>
     <span class="n">length</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">data_list_train</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span>
 
-    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">data_list_val</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">val_label</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">data_list_train</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">train_label</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">data_list_val</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">val_label</span><span class="p">)</span> <span class="c1">##validation data</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">data_list_train</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">train_label</span><span class="p">)</span> <span class="c1">##training data</span>
     <span class="c1">#plt.xlim((epoch_skip, length))</span>
 
     <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Epochs&#39;</span><span class="p">)</span>
@@ -906,7 +906,7 @@ Net(
     <span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">axis</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">])</span>
 
-    <span class="n">display</span><span class="p">(</span><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">())</span>
+    <span class="n">display</span><span class="p">(</span><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">())</span> <span class="c1">##displays plot</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
 </pre></div>
 
