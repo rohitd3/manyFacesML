@@ -6,3 +6,10 @@
 
 https://rohitd3.github.io/manyFacesML/
 
+| Names	|  Hours 	|   	|
+|---	|---	|---	|
+|   Rohit	|  10	|   	|
+| Everitt  	|   10	|   	|
+|  Nathan 	|  12 	|   	|
+|  Jun 	|  10 	|   	|
+|  Samuel 	|  10	|   	|
