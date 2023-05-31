@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Title",
-            "content": ". import torch import torchvision import torchvision.transforms as transforms . ImageWidth=384 ImageHeight=384 train_transform = transforms.Compose([ transforms.RandomHorizontalFlip(), transforms.RandomRotation(60), transforms.Resize(size=(ImageWidth,ImageHeight)), transforms.ToTensor(), transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)) # need to keep these transforms, at least do resize all images to same size and co ]) .",
+            "content": ". import torch import torchvision import torchvision.transforms as transforms . ImageWidth=384 ImageHeight=384 train_transform = transforms.Compose([ transforms.RandomHorizontalFlip(), transforms.RandomRotation(60), transforms.Resize(size=(ImageWidth,ImageHeight)), transforms.ToTensor(), transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)) # need to keep these transforms, at least do resize all images to same size and co ]) . trainset = torchvision.datasets.CIFAR10(root=&#39;./data&#39;, train=True, download=True, transform=transform) trainloader = torch.utils.data.DataLoader(trainset, batch_size=6, shuffle=True, num_workers=2) testset = torchvision.datasets.CIFAR10(root=&#39;./data&#39;, train=False, download=True, transform=transform) testloader = torch.utils.data.DataLoader(testset, batch_size=6, shuffle=False, num_workers=2) classes = (&#39;plane&#39;, &#39;car&#39;, &#39;bird&#39;, &#39;cat&#39;, &#39;deer&#39;, &#39;dog&#39;, &#39;frog&#39;, &#39;horse&#39;, &#39;ship&#39;, &#39;truck&#39;) .",
             "url": "https://rohitd3.github.io/manyFacesML/2023/05/30/CNN_usingPytorch.html",
             "relUrl": "/2023/05/30/CNN_usingPytorch.html",
             "date": " • May 30, 2023"
