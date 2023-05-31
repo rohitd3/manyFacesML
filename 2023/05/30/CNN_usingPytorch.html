@@ -161,7 +161,7 @@ window.onload = wrap_img;
 <div class=" highlight hl-python"><pre><span></span><span class="n">ImageWidth</span><span class="o">=</span><span class="mi">384</span>
 <span class="n">ImageHeight</span><span class="o">=</span><span class="mi">384</span>
 
-<span class="n">train_transform</span> <span class="o">=</span> <span class="n">transforms</span><span class="o">.</span><span class="n">Compose</span><span class="p">([</span>
+<span class="n">transform</span> <span class="o">=</span> <span class="n">transforms</span><span class="o">.</span><span class="n">Compose</span><span class="p">([</span>
     <span class="n">transforms</span><span class="o">.</span><span class="n">RandomHorizontalFlip</span><span class="p">(),</span>
     <span class="n">transforms</span><span class="o">.</span><span class="n">RandomRotation</span><span class="p">(</span><span class="mi">60</span><span class="p">),</span>
     <span class="n">transforms</span><span class="o">.</span><span class="n">Resize</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="n">ImageWidth</span><span class="p">,</span><span class="n">ImageHeight</span><span class="p">)),</span>
