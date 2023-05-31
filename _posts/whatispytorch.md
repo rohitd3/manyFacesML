@@ -1,0 +1,7 @@
+# What is Pytorch
+
+- Pytorch is an extension of Python that is primarily used for developing machine learning frameworks and deep learning models. The Python syntax is mainly used to code. Pytorch integrates with CUDA that allows it to run well on GPUs. With GPU acceleration, Tensor computing(Like NumPy) is viable on Pytorch. Pytorch is used on various high level software, such as Tesla Autopilot, and Uber Pyro for starters. 
+
+## Our Project
+
+- Our project is a surface level of Pytorch demonstration, and we intend to use it for our own learning purposes as well as yours. As you look through our code, we will try to supplement each segment with supporting blogs to explain as much as we can. 
