@@ -6,7 +6,6 @@
 
 https://rohitd3.github.io/manyFacesML/
 
-```
 Tutorials and Guides Watched ~ 4 hours each
 - https://www.kaggle.com/code/salmaneunus/image-classification-in-pytorch-cifar10
 - https://www.kaggle.com/datasets/veeralakrishna/butterfly-dataset
