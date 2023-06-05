@@ -1,4 +1,14 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+<<<<<<< HEAD
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Jun  4 23:10:12 2023
+=======
 # GNU Make 3.81
 # Copyright (C) 2006  Free Software Foundation, Inc.
 # This is free software; see the source for copying conditions.
@@ -8,6 +18,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This program built for i386-apple-darwin11.3.0
 
 # Make data base, printed on Wed May 31 17:54:38 2023
+>>>>>>> 6af1c1ed6c6853425386499f633d12ea0657352d
 
 # Variables
 
@@ -41,6 +52,11 @@ VSCODE_CWD = /
 PATH = /Users/rohitde/opt/anaconda3/bin:/Users/rohitde/opt/anaconda3/condabin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 # environment
 ELECTRON_RUN_AS_NODE = 1
+<<<<<<< HEAD
+# environment
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-67c5e08c-43f8-485e-8103-6be435b40181.sock
+=======
+>>>>>>> 6af1c1ed6c6853425386499f633d12ea0657352d
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
@@ -56,7 +72,15 @@ HOMEBREW_CELLAR = /opt/homebrew/Cellar
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
+<<<<<<< HEAD
+GEM_HOME = /home/nathanshih04/.rvm/gems/ruby-2.7.7
+# environment
+WSL_INTEROP = /run/WSL/19933_interop
+# environment
+PULSE_SERVER = unix:/mnt/wslg/PulseServer
+=======
 MANPATH = /opt/homebrew/share/man::
+>>>>>>> 6af1c1ed6c6853425386499f633d12ea0657352d
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -94,7 +118,11 @@ USER = rohitde
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
+<<<<<<< HEAD
+VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/Natha/.vscode/extensions/ms-vscode-remote.remote-wsl-0.78.9
+=======
 CONDA_SHLVL = 1
+>>>>>>> 6af1c1ed6c6853425386499f633d12ea0657352d
 # default
 MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
 # default
@@ -119,6 +147,13 @@ XPC_SERVICE_NAME = application.com.microsoft.VSCode.6897730.6897736
 HOMEBREW_PREFIX = /opt/homebrew
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
+<<<<<<< HEAD
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# environment
+rvm_user_install_flag = 1
+=======
+>>>>>>> 6af1c1ed6c6853425386499f633d12ea0657352d
 # automatic
 +F = $(notdir $+)
 # environment
@@ -146,8 +181,11 @@ MAKELEVEL := 0
 # environment
 CONDA_PREFIX = /Users/rohitde/opt/anaconda3
 # environment
+<<<<<<< HEAD
+=======
 VSCODE_PID = 1510
 # environment
+>>>>>>> 6af1c1ed6c6853425386499f633d12ea0657352d
 _CE_CONDA = 
 # environment
 LANG = C
@@ -254,6 +292,12 @@ quick-build: .FORCE
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 23):
 	docker-compose stop || true;
+<<<<<<< HEAD
+ 
+make: *** No rule to make target 'all'.  Stop.
+
+=======
+>>>>>>> 6af1c1ed6c6853425386499f633d12ea0657352d
 	docker build -t fastai/fastpages-jekyll -f _action_files/fastpages-jekyll.Dockerfile .
 	docker-compose build 
 	
@@ -320,6 +364,13 @@ make: *** No rule to make target `all'.  Stop.
 
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
+<<<<<<< HEAD
+# strcache performance: lookups = 72 / hit rate = 36%
+# hash-table stats:
+# Load=46/8192=1%, Rehash=0, Collisions=1/72=1%
+# Finished Make data base on Sun Jun  4 23:10:12 2023
+=======
 # Finished Make data base on Wed May 31 17:54:38 2023
+>>>>>>> 6af1c1ed6c6853425386499f633d12ea0657352d
 
  
