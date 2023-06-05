@@ -19,7 +19,7 @@ Tutorials and Guides Watched ~ 4 hours each
 - https://www.youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4 ~ 8 videos watched
   - Installation
   - Tensor Basics
-  - Training Pipeline: Model, Loss, Optimizer
+  - Model, Loss, Optimizer
   - Linear Regression
   - Dataset and Dataloader - Batch
   - Dataset Transforms
