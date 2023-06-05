@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"buildTargets":["bash-jekyll","bash-nb","build","convert","help","make","quick-build","remove","restart-jekyll","server","server-detached","stop"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
+=======
+{"buildTargets":[".FORCE","bash-jekyll","bash-nb","build","convert","help","make","quick-build","remove","restart-jekyll","server","server-detached","stop"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
+>>>>>>> 6af1c1ed6c6853425386499f633d12ea0657352d
