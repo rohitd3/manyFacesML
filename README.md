@@ -28,7 +28,7 @@ Tutorials and Guides Watched ~ 4 hours each
 
 | Names | Hours | Commits |
 | -------- | -------- | -------- | 
-| Everitt   |  ~17  |  [Commits](https://github.com/rohitd3/manyFacesML/commits?author=NinjaBreadLord) - Added blogposts explaining what PyTorch is, explained in between code, wrote code for displaying imagery and importing assets, dataset management, scrum management, markdown management, established dataset directory in google colab, installation of PyTorch, and bug/error handling in team code and own system. | 
+| Everitt   |  ~17  |  [Commits](https://github.com/rohitd3/manyFacesML/commits?author=NinjaBreadLord) - Added blogposts explaining what PyTorch is, explained in between code, wrote code for displaying imagery and importing assets, dataset management, scrum management, markdown management, established dataset directory in google colab, installation of PyTorch, and bug/error handling in team code and own system. (some google colab code does not appear in commits) | 
 | Rohit   |    |    | 
 | Nathan   |    |    | 
 | Jun   |    |    | 
