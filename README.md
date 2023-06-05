@@ -6,6 +6,26 @@
 
 https://rohitd3.github.io/manyFacesML/
 
+Tutorials and Guides Watched ~ 4 hours each
+- https://www.kaggle.com/code/salmaneunus/image-classification-in-pytorch-cifar10
+- https://www.kaggle.com/datasets/veeralakrishna/butterfly-dataset
+- https://www.kaggle.com/datasets/arnaud58/flickrfaceshq-dataset-ffhq
+- https://www.kaggle.com/datasets/andrewmvd/animal-faces
+- https://github.com/jayrodge/Binary-Image-Classifier-PyTorch
+- https://github.com/jayrodge/Binary-Image-Classifier-PyTorch/blob/master/Binary_face_classifier.ipynb 
+- https://hackernoon.com/binary-face-classifier-using-pytorch-2d835ccb7816
+- https://github.com/jayrodge/Binary-Image-Classifier-PyTorch/blob/master/Binary_face_classifier.ipynb
+- https://stackoverflow.com/questions/52468956/how-do-i-visualize-a-net-in-pytorch
+- https://www.youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4 ~ 8 videos watched
+  - Installation
+  - Tensor Basics
+  - Training Pipeline: Model, Loss, Optimizer
+  - Linear Regression
+  - Dataset and Dataloader - Batch
+  - Dataset Transforms
+  - Convulutional Neural Network(CNN)
+  - Saving and Loading Models
+
 | Names | Hours | Commits |
 | -------- | -------- | -------- | 
 | Everitt   |    |    | 
