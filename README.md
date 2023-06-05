@@ -6,6 +6,10 @@
 
 https://rohitd3.github.io/manyFacesML/
 
+
+Our project is a surface level of Pytorch demonstration, and we intend to use it for our own learning purposes as well as yours. As you look through our code, we will try to supplement each segment with supporting blogs to explain as much as we can.
+
+
 Tutorials and Guides Watched ~ 4 hours each
 - https://www.kaggle.com/code/salmaneunus/image-classification-in-pytorch-cifar10
 - https://www.kaggle.com/datasets/veeralakrishna/butterfly-dataset
